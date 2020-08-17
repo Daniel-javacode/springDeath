@@ -14,7 +14,5 @@ public class Rabbit4 {
     }
 
     @Autowired
-    public void setDuck(Duck5 duck) {
-        this.duck = duck;
-    }
+    public void setDuck(Duck5 duck) { this.duck = duck; }
 }
